@@ -30,6 +30,9 @@ Use the ```config/timetraveller.php``` file to modify the package defaults.
 Enable time traveller on a model by using the trait.
 
 ```php
+
+use ConceptByte\TimeTraveller\Scopes\TimeTravel;
+
 class Post extents Model
 {
     use TimeTravel;
